@@ -235,11 +235,25 @@ body {
   .six .hat {
     left: 40%;
   }
+
+  .wish h5 {
+    font-size: 1.2rem;
+  }
+  .wish h3 {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
+  }
+
+  .wish h5 {
+    font-size: 1.2rem;
+  }
+  .wish h3 {
+    font-size: 1.1rem;
   }
 }
 
@@ -247,11 +261,25 @@ body {
   .six .hat {
     left: 32%;
   }
+
+  .wish h5 {
+    font-size: 1.2rem;
+  }
+  .wish h3 {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
+  }
+
+  .wish h5 {
+    font-size: 1.2rem;
+  }
+  .wish h3 {
+    font-size: 1.2rem;
   }
 }
 
@@ -287,11 +315,35 @@ body {
   }
 
   .wish h5 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .wish h3 {
+    font-size: 1.2rem;
   }
 
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+}
+
+@media screen and (max-height: 360) {
+  .six .hat {
+    left: 37%;
+  }
+
+  .wish h5 {
+    font-size: 0.5rem;
+  }
+  .wish h3 {
+    font-size: 0.3rem;
+  }
+}
+@media screen and (max-height: 375) {
+  .wish h5 {
+    font-size: 50px;
+  }
+  .wish h3 {
+    font-size: 2px;
   }
 }
