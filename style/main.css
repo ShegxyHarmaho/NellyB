@@ -106,13 +106,11 @@ body {
   display: inline-block;
   height: 350px;
   max-width: 100%;
-  /* height: auto; */
 }
 
 .six .hat {
   left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
   top: -35%;
   width: 80px;
 }
@@ -151,67 +149,13 @@ body {
   z-index: -1;
 }
 
-.eight svg:nth-child(1) {
-  fill: #bd6ecf;
-  left: 5vw;
-  top: 7vh;
-}
-
-.eight svg:nth-child(2) {
-  fill: #7dd175;
-  left: 35vw;
-  top: 23vh;
-}
-
-.eight svg:nth-child(3) {
-  fill: #349d8b;
-  left: 23vw;
-  top: 33vh;
-}
-
-.eight svg:nth-child(4) {
-  fill: #347a9d;
-  left: 57vw;
-  top: 43vh;
-}
-
-.eight svg:nth-child(5) {
-  fill: #c66053;
-  left: 7vw;
-  top: 68vh;
-}
-
-.eight svg:nth-child(6) {
-  fill: #bfaa40;
-  left: 77vw;
-  top: 42vh;
-}
-
-.eight svg:nth-child(7) {
-  fill: #e3bae8;
-  left: 83vw;
-  top: 68vh;
-}
-
-.eight svg:nth-child(8) {
-  fill: #8762cb;
-  left: 37vw;
-  top: 86vh;
-}
-
-.eight svg:nth-child(9) {
-  fill: #9a90da;
-  left: 87vw;
-  top: 94vh;
-}
-
 .wish-hbd {
   font-size: 1.2em;
   text-transform: uppercase;
   display: flex;
-  gap: 7.8px; /* Adjust the space between words */
-  justify-content: center; /* Keep words centered */
-  flex-wrap: wrap; /* Allow wrapping if needed */
+  gap: 7.8px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .wish h5 {
@@ -231,58 +175,6 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
-  .six .hat {
-    left: 40%;
-  }
-
-  .wish h5 {
-    font-size: 1.2rem;
-  }
-  .wish h3 {
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .six .hat {
-    left: 37%;
-  }
-
-  .wish h5 {
-    font-size: 1.2rem;
-  }
-  .wish h3 {
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .six .hat {
-    left: 32%;
-  }
-
-  .wish h5 {
-    font-size: 1.2rem;
-  }
-  .wish h3 {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    left: 32%;
-  }
-
-  .wish h5 {
-    font-size: 1.2rem;
-  }
-  .wish h3 {
-    font-size: 1.2rem;
-  }
-}
-
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
@@ -306,76 +198,44 @@ body {
   }
 
   .six .hat {
-    /* top: -20px; */
     width: 50px;
   }
 
   .wish-hbd {
     font-size: 2.2em;
   }
+}
 
-  .wish h5 {
-    font-size: 1.2rem;
-  }
-  .wish h3 {
-    font-size: 1.2rem;
-  }
-
-  .nine p {
-    font-size: 1.5rem;
-    font-weight: lighter;
+@media screen and (max-height: 1000px) {
+  .six .hat {
+    left: 40%;
   }
 }
 
-@media screen and (max-height: 360) {
+@media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
   }
-
-  .wish h5 {
-    font-size: 0.5rem;
-  }
-  .wish h3 {
-    font-size: 0.3rem;
-  }
-} /* ✅ Fix incorrect media queries */
-@media screen and (max-width: 720px) {
-  .wish h5 {
-    font-size: 0.8rem; /* Increased for better readability */
-  }
-  .wish h3 {
-    font-size: 0.7rem;
-  }
 }
 
-@media screen and (max-width: 500px) {
-  .container {
-    width: 90%;
-  }
-
-  .four .text-box {
-    width: 90%;
-  }
-
+@media screen and (max-height: 700px) {
   .six .hat {
-    width: 50px;
-  }
-
-  .wish-hbd {
-    font-size: 1.8em; /* Slightly reduced for better fit */
-  }
-
-  .nine p {
-    font-size: 1.2rem;
+    left: 32%;
   }
 }
 
-/* ✅ Fix font size for extra small screens */
-@media screen and (max-width: 360px) {
-  .wish h5 {
-    font-size: 0.8rem;
+@media screen and (max-height: 850px) and (max-width: 450px) {
+  .six .hat {
+    left: 32%;
   }
+}
+
+@media screen and (max-width: 720px),
+  screen and (max-width: 500px),
+  screen and (max-width: 375px),
+  screen and (max-width: 360px) {
+  .wish h5,
   .wish h3 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
