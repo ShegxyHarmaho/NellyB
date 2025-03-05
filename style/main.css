@@ -339,11 +339,35 @@ body {
     font-size: 0.3rem;
   }
 }
-@media screen and (max-height: 375) {
+@media screen and (max-width: 720) {
   .wish h5 {
-    font-size: 50px;
+    font-size: 0.5rem;
   }
   .wish h3 {
-    font-size: 2px;
+    font-size: 0.3rem;
+  }
+}
+@media screen and (max-width: 500) {
+  .wish h5 {
+    font-size: 0.5rem;
+  }
+  .wish h3 {
+    font-size: 0.3rem;
+  }
+}
+@media screen and (max-width: 360) {
+  .wish h5 {
+    font-size: 0.5rem;
+  }
+  .wish h3 {
+    font-size: 0.3rem;
+  }
+}
+@media screen and (max-width: 375) {
+  .wish h5 {
+    font-size: 0.5rem;
+  }
+  .wish h3 {
+    font-size: 0.3rem;
   }
 }
