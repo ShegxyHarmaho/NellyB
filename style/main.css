@@ -232,6 +232,9 @@ body {
 
 @media screen and (max-width: 720px),
   screen and (max-width: 500px),
+  screen and (max-width: 414),
+  screen and (max-width: 412),
+  screen and (max-width: 390),
   screen and (max-width: 375px),
   screen and (max-width: 360px) {
   .wish h5,
