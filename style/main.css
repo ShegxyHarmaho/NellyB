@@ -338,36 +338,44 @@ body {
   .wish h3 {
     font-size: 0.3rem;
   }
-}
-@media screen and (max-width: 720) {
+} /* ✅ Fix incorrect media queries */
+@media screen and (max-width: 720px) {
   .wish h5 {
-    font-size: 0.5rem;
+    font-size: 0.8rem; /* Increased for better readability */
   }
   .wish h3 {
-    font-size: 0.3rem;
+    font-size: 0.7rem;
   }
 }
-@media screen and (max-width: 500) {
-  .wish h5 {
-    font-size: 0.5rem;
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
   }
-  .wish h3 {
-    font-size: 0.3rem;
+
+  .four .text-box {
+    width: 90%;
+  }
+
+  .six .hat {
+    width: 50px;
+  }
+
+  .wish-hbd {
+    font-size: 1.8em; /* Slightly reduced for better fit */
+  }
+
+  .nine p {
+    font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 360) {
+
+/* ✅ Fix font size for extra small screens */
+@media screen and (max-width: 360px) {
   .wish h5 {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   .wish h3 {
-    font-size: 0.3rem;
-  }
-}
-@media screen and (max-width: 375) {
-  .wish h5 {
-    font-size: 0.5rem;
-  }
-  .wish h3 {
-    font-size: 0.3rem;
+    font-size: 0.7rem;
   }
 }
